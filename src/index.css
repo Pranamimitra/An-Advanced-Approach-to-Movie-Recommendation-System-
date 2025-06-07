@@ -1,0 +1,222 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500&family=Playfair+Display:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&family=DM+Sans:wght@400;500;700&display=swap');
+
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* ---------------------- Dark Mode: Vintage Cinematic --------------------- */
+body {
+  margin: 0;
+  font-family: 'Inter', 'DM Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI',
+    'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans',
+    'Helvetica Neue', sans-serif;
+  background-color: #1A1A1A; /* Smoky Charcoal */
+  color: #F5F3E7; /* Soft Ivory */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  transition: background-color 0.5s ease-in-out, color 0.5s ease-in-out;
+  letter-spacing: 0.03em;
+  line-height: 1.6;
+}
+
+/* ---------------------- Light Mode: Dreamy Girly-coded --------------------- */
+body.light {
+  background: linear-gradient(135deg, #fce4ec, #f8bbd0, #f48fb1); /* Dreamy pink gradient */
+  color: #6e4b50; /* Muted Mauve */
+  font-family: 'Inter', 'DM Sans', sans-serif;
+}
+
+/* ---------------------- Headings: Playfair Display --------------------- */
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Playfair Display', serif;
+  color: #7B2D26; /* Vintage Maroon */
+  font-weight: 700;
+  letter-spacing: 0.06em;
+  margin-bottom: 0.75rem;
+  line-height: 1.2;
+  transition: color 0.4s ease-in-out;
+}
+
+body.light h1, 
+body.light h2, 
+body.light h3, 
+body.light h4, 
+body.light h5, 
+body.light h6 {
+  color: #9c496a; /* softer vintage maroon for light */
+}
+
+/* ---------------------- Links --------------------- */
+a {
+  color: #C9B458; /* Faded Gold */
+  text-decoration: none;
+  transition: color 0.3s ease-in-out, text-shadow 0.3s ease-in-out;
+  font-weight: 500;
+}
+
+a:hover, a:focus {
+  color: #FFD966; /* brighter gold highlight */
+  text-shadow: 0 0 8px #FFD966aa;
+  outline: none;
+}
+
+/* ---------------------- Buttons --------------------- */
+button {
+  font-family: 'Inter', sans-serif;
+  font-weight: 600;
+  border-radius: 0.75rem;
+  padding: 0.65rem 1.5rem;
+  cursor: pointer;
+  border: none;
+  transition: all 0.3s ease-in-out;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.15);
+  background-color: #7B2D26; /* Vintage Maroon */
+  color: #F5F3E7;
+  letter-spacing: 0.04em;
+  user-select: none;
+}
+
+button:hover, button:focus {
+  background-color: #8f3a2f;
+  box-shadow: 0 6px 16px rgba(123, 45, 38, 0.6);
+  outline: none;
+  transform: translateY(-2px);
+}
+
+body.light button {
+  background-color: #f48fb1; /* Dreamy blush pink */
+  color: #6e4b50; /* Muted mauve */
+  box-shadow: 0 2px 10px rgba(244, 143, 177, 0.4);
+}
+
+body.light button:hover, 
+body.light button:focus {
+  background-color: #f97fb0;
+  box-shadow: 0 6px 16px rgba(249, 127, 176, 0.8);
+  transform: translateY(-2px);
+  outline: none;
+}
+
+/* ---------------------- Cards --------------------- */
+.card {
+  background-color: #2D2D2D; /* Film Gray */
+  color: #F5F3E7;
+  border-radius: 1.25rem;
+  padding: 1.5rem 2rem;
+  box-shadow: 0 6px 18px rgba(0,0,0,0.4);
+  transition: transform 0.4s ease-in-out, box-shadow 0.4s ease-in-out;
+  user-select: none;
+}
+
+.card:hover, .card:focus-within {
+  transform: translateY(-6px);
+  box-shadow: 0 12px 24px rgba(139, 106, 79, 0.6); /* Sepia Accent glow */
+  outline: none;
+}
+
+body.light .card {
+  background-color: #fff0f6; /* Soft creamy pink */
+  color: #6e4b50;
+  box-shadow: 0 6px 18px rgba(249, 143, 177, 0.25);
+}
+
+body.light .card:hover, 
+body.light .card:focus-within {
+  box-shadow: 0 12px 24px rgba(249, 127, 176, 0.7);
+  transform: translateY(-6px);
+  outline: none;
+}
+
+/* ---------------------- Code Blocks --------------------- */
+code {
+  font-family: 'Source Code Pro', Menlo, Monaco, Consolas, 'Courier New', monospace;
+  color: #C9B458; /* Faded Gold */
+  background-color: #2D2D2D; /* Film Gray */
+  padding: 0.25rem 0.5rem;
+  border-radius: 6px;
+  font-size: 0.9rem;
+  user-select: text;
+  transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
+}
+
+body.light code {
+  background-color: #fce4ec; /* Dreamy pink */
+  color: #9c496a; /* Muted maroon */
+}
+
+/* ---------------------- Inputs & Textareas --------------------- */
+input, textarea {
+  font-family: 'Inter', sans-serif;
+  border-radius: 0.6rem;
+  padding: 0.75rem 1rem;
+  border: 1.8px solid #7B2D26;
+  background-color: #2D2D2D;
+  color: #F5F3E7;
+  transition: border-color 0.3s ease-in-out, background-color 0.3s ease-in-out;
+}
+
+input::placeholder, textarea::placeholder {
+  color: #A89F91; /* Dusty Taupe */
+}
+
+input:focus, textarea:focus {
+  border-color: #C9B458; /* Faded Gold */
+  outline: none;
+  background-color: #3a3a3a;
+}
+
+body.light input, body.light textarea {
+  background-color: #fff0f6; /* soft creamy pink */
+  border-color: #f48fb1;
+  color: #6e4b50;
+}
+
+body.light input::placeholder, body.light textarea::placeholder {
+  color: #d99ca6;
+}
+
+body.light input:focus, 
+body.light textarea:focus {
+  border-color: #f97fb0;
+  background-color: #fce4ec;
+}
+
+/* ---------------------- Utility Classes for Shadows & Transitions --------------------- */
+.shadow-soft {
+  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.3);
+}
+
+.transition-smooth {
+  transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+/* ---------------------- Scrollbar Styling --------------------- */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: #1A1A1A;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #7B2D26;
+  border-radius: 6px;
+  border: 2px solid #1A1A1A;
+}
+
+body.light ::-webkit-scrollbar-track {
+  background: #fce4ec;
+}
+
+body.light ::-webkit-scrollbar-thumb {
+  background-color: #f48fb1;
+  border: 2px solid #fce4ec;
+}
+
+body {
+  font-family: 'DM Sans', sans-serif;
+}
