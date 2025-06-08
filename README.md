@@ -39,7 +39,7 @@ A full-stack Movie Recommendation System that leverages both **Content-Based** a
 │       └── App.jsx           # Entry point
     ├── tailwind.config.js    # Tailwind setup
 ├── Datas/                  # Preprocessed datasets
-├── movie_recommendation.ipynb  # EDA + model building
+├── movie_recommendation.ipynb  # main code for the project. It contains the recommendation models.
 └── README.md               # Project documentation
 ````
 
