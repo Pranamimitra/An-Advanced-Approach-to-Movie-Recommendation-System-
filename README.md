@@ -19,7 +19,8 @@ A full-stack Movie Recommendation System that leverages both **Content-Based** a
 
 ### Others
 - Jupyter Notebook (`movie_recommendation.ipynb`) for prototyping
-- TMDb API (for movie metadata and posters)
+- TMDb IMDB Dataset (for movie metadata and posters)
+- MovieLens dataset (for user ratings)
 - LocalStorage/AuthContext for user sessions
 
 ---
