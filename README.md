@@ -31,14 +31,14 @@ A full-stack Movie Recommendation System that leverages both **Content-Based** a
 ├── backend/                 # Flask backend
 │   ├── app.py              # Main API server
 │   └── recommendation.py   # Recommendation logic
-├── public/                 # Static files (React)
-├── src/                    # React frontend source
-│   ├── components/         # Reusable UI components
-│   ├── pages/              # Route-based components
-│   └── App.jsx             # Entry point
+├── frontend/                 # Static files (React)
+    ├── src/                    # React frontend source
+│       ├── components/         # Reusable UI components
+│       ├── pages/              # Route-based components
+│       └── App.jsx           # Entry point
+    ├── tailwind.config.js    # Tailwind setup
 ├── Datas/                  # Preprocessed datasets
 ├── movie_recommendation.ipynb  # EDA + model building
-├── tailwind.config.js      # Tailwind setup
 └── README.md               # Project documentation
 ````
 
