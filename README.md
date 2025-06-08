@@ -31,13 +31,17 @@ A full-stack Movie Recommendation System that leverages both **Content-Based** a
 .
 ├── backend/                 # Flask backend
 │   ├── appt.py              # Main API server
-│   ├── chatbot.py 
-│   ├── watchlist_recommender.py
-│   └── mrs.py   # Recommendation logic
+|   ├── Datas/               #processed databases
+│   ├── chatbot.py           # chatbot implementation
+│   ├── watchlist_recommender.py    # Watchlist based recommendation logic
+└── recommendation.py   # Main Movie based Recommendation logic
 ├── frontend/                 # Static files (React)
-|   ├── src/                    # React frontend source
-│   ├── pulic
-|   ├── tailwind.config.js    # Tailwind setup
+    ├── public/              # Static files (React)
+    ├── src/                    # React frontend source
+│       ├── components/         # Reusable UI components
+│       ├── pages/              # Route-based components
+│       └── App.jsx           # Entry point
+    ├── tailwind.config.js    # Tailwind setup
 ├── movie_recommendation.ipynb  # main code for the project. It contains the recommendation models.
 └── README.md               # Project documentation
 ````
@@ -115,6 +119,7 @@ The `movie_recommendation.ipynb` file contains:
 ![M1](https://github.com/user-attachments/assets/d9b67c2a-dd81-4637-928f-7b83a10975d8)
 ![M2](https://github.com/user-attachments/assets/d545c082-65ec-4279-aef7-e146823ddcdf)
 ![Screenshot 2025-06-08 135106](https://github.com/user-attachments/assets/9984e75b-09be-44e9-8438-64e632f979d7)
+![M3](https://github.com/user-attachments/assets/c30ba530-5657-4bef-9b6d-3770fe336a92)
 ![M4](https://github.com/user-attachments/assets/b2dd2065-3def-41c0-b713-ff72b6f7c4e0)
 ![M5](https://github.com/user-attachments/assets/39eda73a-6de2-4e20-9654-a11c37d6513f)
 
