@@ -102,7 +102,12 @@ The `movie_recommendation.ipynb` file contains:
 
 ## 📸 Screenshots
 
-> (Add screenshots here of Home Page, Recommendations Page, Search Results, and Movie Details)
+![M6](https://github.com/user-attachments/assets/ddbf379e-1fe0-4342-961c-3e4dfb0e9450)
+![M1](https://github.com/user-attachments/assets/d9b67c2a-dd81-4637-928f-7b83a10975d8)
+![M2](https://github.com/user-attachments/assets/d545c082-65ec-4279-aef7-e146823ddcdf)
+![M3](https://github.com/user-attachments/assets/6b51a47c-ed8e-444c-b6a0-79e491628c96)
+![M4](https://github.com/user-attachments/assets/b2dd2065-3def-41c0-b713-ff72b6f7c4e0)
+![M5](https://github.com/user-attachments/assets/39eda73a-6de2-4e20-9654-a11c37d6513f)
 
 ---
 
@@ -112,8 +117,6 @@ The `movie_recommendation.ipynb` file contains:
 * **Prashasti Nanda**
 * **Shubhashree Pal**
 * **Archishmita Ghorai**
-
-> Roles and contributions can be added in a separate section if needed.
 
 ---
 
