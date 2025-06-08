@@ -30,7 +30,7 @@ A full-stack Movie Recommendation System that leverages both **Content-Based** a
 ```bash
 .
 ├── backend/                 # Flask backend
-│   ├── app.py              # Main API server
+│   ├── appt.py              # Main API server
 │   └── recommendation.py   # Recommendation logic
 ├── frontend/                 # Static files (React)
     ├── src/                    # React frontend source
