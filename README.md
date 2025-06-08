@@ -31,14 +31,13 @@ A full-stack Movie Recommendation System that leverages both **Content-Based** a
 .
 ├── backend/                 # Flask backend
 │   ├── appt.py              # Main API server
-│   └── recommendation.py   # Recommendation logic
+│   ├── chatbot.py 
+│   ├── watchlist_recommender.py
+│   └── mrs.py   # Recommendation logic
 ├── frontend/                 # Static files (React)
-    ├── src/                    # React frontend source
-│       ├── components/         # Reusable UI components
-│       ├── pages/              # Route-based components
-│       └── App.jsx           # Entry point
-    ├── tailwind.config.js    # Tailwind setup
-├── Datas/                  # Preprocessed datasets
+|   ├── src/                    # React frontend source
+│   ├── pulic
+|   ├── tailwind.config.js    # Tailwind setup
 ├── movie_recommendation.ipynb  # main code for the project. It contains the recommendation models.
 └── README.md               # Project documentation
 ````
@@ -63,6 +62,8 @@ The project uses the following datasets for training and evaluation:
 * **https://www.kaggle.com/datasets/garymk/movielens-25m-dataset** — Used only ratings.csv and movies.csv for collaborative filtering. Later used links.csv file to link between collaborative filtering dataset and content based filtering dataset on the basis of TMDB id.
 
 * **https://www.kaggle.com/datasets/alanvourch/tmdb-movies-daily-updates?resource=download&select=TMDB_all_movies.csv** — Movie details, genres, cast, and crew information.
+
+|These are meant to be downloaded, unzipped and saved in the backend folder while setting up. 
 
 ## ⚙️ Setup Instructions
 
