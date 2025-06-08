@@ -56,6 +56,13 @@ A full-stack Movie Recommendation System that leverages both **Content-Based** a
 
 ---
 
+## 📂 Dataset Used
+The project uses the following datasets for training and evaluation:
+
+* **https://www.kaggle.com/datasets/garymk/movielens-25m-dataset** — Used only ratings.csv and movies.csv for collaborative filtering. Later used links.csv file to link between collaborative filtering dataset and content based filtering dataset on the basis of TMDB id.
+
+* **https://www.kaggle.com/datasets/alanvourch/tmdb-movies-daily-updates?resource=download&select=TMDB_all_movies.csv** — Movie details, genres, cast, and crew information.
+
 ## ⚙️ Setup Instructions
 
 ### 🔧 Backend Setup (Flask)
