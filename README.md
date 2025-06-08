@@ -1,4 +1,4 @@
-# 🎬 Movie Recommendation System
+# An Advanced Approach to Movie recommendation system
 
 A full-stack Movie Recommendation System that leverages both **Content-Based** and **Collaborative Filtering** techniques. Built using **React** (frontend) and **Flask** (backend), this system offers personalized movie suggestions, mood-based filters, watchlist management, and more.
 
