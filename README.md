@@ -114,7 +114,7 @@ The `movie_recommendation.ipynb` file contains:
 ![M6](https://github.com/user-attachments/assets/ddbf379e-1fe0-4342-961c-3e4dfb0e9450)
 ![M1](https://github.com/user-attachments/assets/d9b67c2a-dd81-4637-928f-7b83a10975d8)
 ![M2](https://github.com/user-attachments/assets/d545c082-65ec-4279-aef7-e146823ddcdf)
-![M3](https://github.com/user-attachments/assets/6b51a47c-ed8e-444c-b6a0-79e491628c96)
+![Screenshot 2025-06-08 135106](https://github.com/user-attachments/assets/9984e75b-09be-44e9-8438-64e632f979d7)
 ![M4](https://github.com/user-attachments/assets/b2dd2065-3def-41c0-b713-ff72b6f7c4e0)
 ![M5](https://github.com/user-attachments/assets/39eda73a-6de2-4e20-9654-a11c37d6513f)
 
